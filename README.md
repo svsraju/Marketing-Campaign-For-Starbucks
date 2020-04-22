@@ -71,7 +71,6 @@ I have used Label Encoding to label the categorical variables accordingly.
 Using `transactions`,a supervised learning model is built to predict the amount a customer will spend in future on various offers.
 I have used Linear Regression and Decision Tree regressor to fit the model.
 Both the models performed well on the data, and I got rmse of 6.6 for Linear regressor and 6.4 for Decision Tree.
-![image](https://user-images.githubusercontent.com/46058709/80021519-3d854780-84a0-11ea-97e2-d1e93fb73258.png)
 
 **Designing a personalized offer_type for each customer, which can help in sending the personalized offer**
 #### classification:
@@ -79,10 +78,8 @@ I have designed this into a classification problem where we will be classifying 
 I have built Logistic Regression Using GridSearch CV and KNN Classifier to check their performance on our data.
 Logistic Regression was overfitting on the data, as we have a perfect accuracy score of 1.0
 
-![image](https://user-images.githubusercontent.com/46058709/80021681-7e7d5c00-84a0-11ea-80d6-fa5108c9ae79.png)
 
 K Nearest Neighbours Classification is chosen after training the data on various classifiers because KNN Classifier does not overfit and gives good testing accuracy around `73%`
-![image](https://user-images.githubusercontent.com/46058709/80022088-2a26ac00-84a1-11ea-863b-893cd488b7e3.png)
 
 ## Acknowledgments
 Thank you to Udacity for such amazing opportunity and lessons. Thank you the Starbucks for sharing this use case and the simulated data.
