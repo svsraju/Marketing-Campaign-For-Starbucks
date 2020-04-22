@@ -65,8 +65,8 @@ I have used Label Encoding to label the categorical variables accordingly.
 - The given transactional data shows user purchases made on the app including the timestamp of purchase and the amount of money spent on    a purchase. This transactional data also has a record for each offer that a user receives as well as a record for when a user           actually views the offer. There are also records for when a user completes an offer.
 
 ## IV Answering the Questions
-**Predicting the amount that will be spent by Customer**
 ### Supervised Learning:
+**Predicting the amount that will be spent by Customer**
 #### Regression:
 Using `transactions`,a supervised learning model is built to predict the amount a customer will spend in future on various offers.
 I have used Linear Regression and Decision Tree regressor to fit the model.
